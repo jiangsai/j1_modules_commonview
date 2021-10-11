@@ -1,3 +1,7 @@
 rootProject.name = "commonview"
 include ':app'
 include ':architecture_view'
+
+
+//
+include ':architecture_view'

@@ -30,5 +30,9 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
-    implementation project(path: ':architecture_view')
+    //当自己是主app时
+    //implementation project(path: ':architecture_view')
+
+    //当自己时子app时
+    implementation project(path: ':modules:j1_modules_commonview:architecture_view')
 }
